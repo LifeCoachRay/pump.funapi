@@ -20,7 +20,7 @@
        console.log('Connected to MongoDB');
    });
 
-   // Sample route
+   // Simple route
    app.get('/', (req, res) => {
        res.send('Welcome to Pump.fun API!');
    });
