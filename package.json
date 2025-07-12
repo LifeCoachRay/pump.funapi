@@ -1,0 +1,31 @@
+{
+  "name": "pump.fun-api",
+  "version": "1.0.0",
+  "description": "The Pump.fun API is designed to provide real-time tracking and management of cryptocurrency tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LifeCoachRay/pump.funapi.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Pump.fun"
+  ],
+  "author": "Life Coach Ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LifeCoachRay/pump.funapi/issues"
+  },
+  "homepage": "https://github.com/LifeCoachRay/pump.funapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3"
+  }
+}
